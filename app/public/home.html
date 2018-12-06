@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Friend Finder Pro</title>
+	<title>Friend Finder</title>
 
-  	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  	<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
   	<script src="https://use.fontawesome.com/b38c8ed4c7.js"></script>
 
@@ -33,7 +33,6 @@
 				<div class="col s12 z-depth-5 mainpanel">
 					<div id="mainpanel-content">
 						<div class="divider"></div>
-						<h2>Answer a few basic questions.</h2>
 						<h2>Find the friend with the greatest compatibility!</h2>
 						<a href="/survey">
 							<button class="btn waves-effect waves-purple" type="submit" name="action">Click here to find out!
@@ -51,32 +50,36 @@
 	</main>
 
 <script type="text/javascript">
-function runTableQuery() {
+
+	function runTableQuery() {
     // The AJAX function uses the URL of our API to GET the data associated with it (initially set to localhost)
-    $.ajax({ url: "/api/friends", method: "GET" })
+   	 $.ajax({ url: "/api/friends", method: "GET" })
       .then(function(friendsData) {
-	 for (var i = 0; i < friendsData.length; i++) {
+	 	for (var i = 0; i < friendsData.length; i++) {
 
-// Get a reference to the tableList element and populate it with tables
-var friends = $("#friendsArray");
+	// Get a reference to the tableList element and populate it with tables
+			var friends = $("#friendsArray");
 
-// Then display the fields in the HTML (Section Name, Date, URL)
-var listItem = $("<li class='list-group-item mt-4'>");
+	// Then display the fields in the HTML (Section Name, Date, URL)
+		var listItem = $("<li class='list-group-item mt-4'>");
 
-listItem.append(
-  $("<h4>").text("Your Future BFF" + (i + 1)),
-  $("<hr>"),
-  $("<h4>").text("Name: " + friendsData[i].name),
-//   $("<h2>").text("Name: " + tableData[i].customerName),
-//   $("<h2>").text("Email: " + tableData[i].customerEmail),
-  $("<img>").attr("src", friendsData[i].photo)
-);
-friends.append(listItem);
-        }
+		listItem.append(
+ 		$("<h4>").text("Your Future BFF" + (i + 1)),
+		$("<hr>"),
+		$("<h4>").text("Name: " + friendsData[i].name),
+	//   $("<h2>").text("Name: " + tableData[i].customerName),
+	//   $("<h2>").text("Email: " + tableData[i].customerEmail),
+  		$("<img>").attr("src", friendsData[i].photo)
+	);
+		friends.append(listItem);
+	   
+		}
  
-});
+	});
 }
+
 runTableQuery();
+
 </script>
 </body>
 </html>
