@@ -4,14 +4,14 @@ A compatibility-based "FriendFinder" application -- basically like a dating app.
 
 Technologies Used:
 
-HTML
+**HTML**
 
-CSS
+**CSS**
 
-Node.js
+**Node.js**
 
-Express NPM Package
+**Express NPM Package**
 
-Path NPM Package
+**Path NPM Package**
 
-Body-Parser NPM Package
+**Body-Parser NPM Package**
