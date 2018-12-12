@@ -1,7 +1,7 @@
-var friendsArray = [
+var marvelArr = [
 	{
-		name: 'Ariel',
-		photo: 'https://lumiere-a.akamaihd.net/v1/images/gallery_princess_ariel_5_28dcc9e3.jpeg?height=473&mode=crop&region=0%2C0%2C2181%2C1223&width=630',
+		name: 'Spider-Man',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/6/65/Spider-Man_Homecoming_poster_008.jpg/revision/latest/scale-to-width-down/329?cb=20170620144128',
 		scores: [
 			'1',
 			'1',
@@ -16,8 +16,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Elsa',
-		photo: 'https://lumiere-a.akamaihd.net/v1/images/6d7454cea6644379adc7e529c5790a28078a2823.jpeg?region=0,0,450,450&width=320',
+		name: 'Captain America',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/b/b1/Captain_America_Vol_6_2_Textless.jpg/revision/latest/scale-to-width-down/658?cb=20110719042719',
 		scores: [
 			'5',
 			'1',
@@ -32,8 +32,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Merida',
-		photo: 'https://lumiere-a.akamaihd.net/v1/images/gallery_princess_merida_8_72603f1f.jpeg?height=473&mode=crop&region=0%2C0%2C2181%2C1223&width=630',
+		name: 'Green Goblin',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/8/87/Amazing_Spider-Man_Vol_1_797_Textless.jpg/revision/latest/scale-to-width-down/657?cb=20171219175310',
 		scores: [
 			'5',
 			'1',
@@ -48,8 +48,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Jessie',
-		photo: 'https://vignette.wikia.nocookie.net/disney/images/7/7a/Jessie.png/revision/latest?cb=20131106225109',
+		name: 'Hulk',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/5/55/Immortal_Hulk_Vol_1_1_Crain_Variant_Textless.jpg/revision/latest/scale-to-width-down/647?cb=20180320235445',
 		scores: [
 			'3',
 			'1',
@@ -64,8 +64,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Minnie',
-		photo: 'https://www.pinterest.com/pin/471541023471222451/',
+		name: 'Iron Man',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/e/e7/Iron_Man_Vol_4_6_Textless.jpg/revision/latest?cb=20100309183023',
 		scores: [
 			'3',
 			'1',
@@ -80,8 +80,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Mickey',
-		photo: 'https://upload.wikimedia.org/wikipedia/en/d/d4/Mickey_Mouse.png',
+		name: 'Magneto/Horseman of Peace',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/5/5e/X-Men_Black_-_Magneto_Vol_1_1_Textless.jpg/revision/latest/scale-to-width-down/643?cb=20180722224641',
 		scores: [
 			'5',
 			'5',
@@ -96,8 +96,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Gaston',
-		photo: 'https://upload.wikimedia.org/wikipedia/en/thumb/e/ed/Gaston_smirking.jpg/330px-Gaston_smirking.jpg',
+		name: 'Thanos',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/c/cb/Infinity_Vol_1_4_Generals_Variant_Textless.jpg/revision/latest?cb=20130628193007',
 		scores: [
 			'5',
 			'2',
@@ -128,8 +128,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Beast',
-		photo: 'https://upload.wikimedia.org/wikipedia/en/e/ee/Beast_%28Disney%29.jpg',
+		name: 'Red Skull',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/c/c0/Marvels_Project_Vol_1_6_Parel_Variant_Textless.jpg/revision/latest?cb=20091108114006',
 		scores: [
 			'5',
 			'1',
@@ -144,8 +144,8 @@ var friendsArray = [
 		]
 	},
 	{
-		name: 'Simba',
-		photo: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/YoungSimbaSmilestlk.png/330px-YoungSimbaSmilestlk.png',
+		name: 'Wolverine',
+		photo: 'https://vignette.wikia.nocookie.net/marveldatabase/images/7/78/Return_of_Wolverine_Vol_1_2_Shalvey_Variant_Textless.jpg/revision/latest/scale-to-width-down/658?cb=20180902211650',
 		scores: [
 			'4',
 			'3',
@@ -161,4 +161,4 @@ var friendsArray = [
 	}
 ];
 
-module.exports = friendsArray;
+module.exports = marvelArr;

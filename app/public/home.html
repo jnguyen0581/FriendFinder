@@ -21,7 +21,7 @@
 		<nav>
 			<div class="nav-wrapper blue">
 				<i class="fa fa-address-book-o fa-5x" aria-hidden="true" id=logo-icon></i>
-				<a href="/" class="brand-logo" id="logo">Your Future BFF</a>
+				<a href="/" class="brand-logo" id="logo">Your Inner Marvel</a>
 				
 			</div>
 		</nav>
@@ -33,7 +33,7 @@
 				<div class="col s12 z-depth-5 mainpanel">
 					<div id="mainpanel-content">
 						<div class="divider"></div>
-						<h2>Find the friend with the greatest compatibility!</h2>
+						<h2>Find your inner Marvel!</h2>
 						<a href="/survey">
 							<button class="btn waves-effect waves-purple" type="submit" name="action">Click here to find out!
 								<i class="material-icons right">send</i>
@@ -42,7 +42,7 @@
 						<a href="/api/friends">API Friends</a>
 					</div>
 					<div class="card-body">
-							<ul id="friendsArray" class="list-group"></ul>
+							<ul id="marvelArr" class="list-group"></ul>
 						  </div>
 				</div>
 			</div>
@@ -58,7 +58,7 @@
 	 	for (var i = 0; i < friendsData.length; i++) {
 
 	// Get a reference to the tableList element and populate it with tables
-			var friends = $("#friendsArray");
+			var friends = $("#marvelArr");
 
 	// Then display the fields in the HTML (Section Name, Date, URL)
 		var listItem = $("<li class='list-group-item mt-4'>");
