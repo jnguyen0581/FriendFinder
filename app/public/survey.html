@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
           
 	<link rel="stylesheet" href="../public/style.css">
 </head>
@@ -241,8 +242,8 @@
 			$.post('/api/friends', userInput)
       		.done(function(data) {
       			
-      			$('#userMatch').html(data.name);
-				$("#userMatchImage").attr("src", data.photo);
+      			$('#userMatch').html(data.matchName);
+				$("#userMatchImage").attr("src", data.matchImage);
 				
 		    	
       			$('#modal1').modal('open');
