@@ -49,3 +49,7 @@ main h1 {
 #mainpanel-content {
     margin: 50px;
 }
+
+img {
+    width: 300px;
+}
